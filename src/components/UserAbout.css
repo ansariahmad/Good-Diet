@@ -1,0 +1,329 @@
+.App{
+    margin: 0px;
+    /* background-color: #323E40; */
+}
+
+.uaubgMain {
+    margin: 0px;
+    /* background-color: rgba(152, 152, 152, 0.867);  */
+    background-image: url('./Pics/pexels-ella-olsson-1640773.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 110vh;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+.uMainHeader h1 {
+    /* position: absolute; */
+    left: 70px;
+    margin-top: 12px;
+    top: 0px;
+    z-index: 2;
+    color: #ffffff;
+}
+
+
+.uMainHeader{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+    width: 100%;
+    height: 70px;
+    background-color:#000000;
+    display: flex;
+    flex-direction: row;
+    filter: drop-shadow(0px 5px 10px black);
+}
+
+#ulimg {
+  height: 70px;
+  width: 70px;
+  display: flex;
+  /* text-shadow: 10px 10px black; */
+}
+
+.ucircleImg{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 80%;
+    left: 10px;
+    top: 0px;
+    z-index: 2;
+}
+
+#ucimg {
+    height: 50px;
+    width: 50px;
+    border-radius: 45px;
+    margin-left: 10px;
+}
+
+#uHi {
+    margin-top: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.uMainNavbar{
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+    width: 56%;
+    height: 70px;
+    /* background-color: rgba(184, 115, 11, 0.671); */
+    display: flex;
+    flex-direction: row;
+    left: 340px;
+
+}
+
+.btn_uMainPage {
+    /* margin-left: 15%; */
+    width: 90%;
+    margin-top: 25px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #ffb000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition-duration: 0.4s;
+  }
+  .btn_uMainPage:hover {
+    box-shadow: 0 12px 16px 0 #9400008a, 0 17px 50px 0 #8f00008a;
+    background-color: white; /* Green */
+    color: #ffb000;
+    border-color: #ffb000;
+    border: 7px;
+  }
+
+
+  #select_Category {
+    width: 120px;
+    height: 27px;
+    margin-top: 25px;
+    margin-left: 25px;
+    text-align: center;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #ffb000;
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+    margin-bottom: 10px;
+
+    transition-duration: 0.4s;
+  }
+
+  #select_Category:hover{
+    background-color: white; /* Green */
+    color: #ff0000;
+    border-color: #ff0000;
+    border: 7px;
+  }
+
+  .opt_Category {
+    width: 90%;
+    margin-top: 25px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ff0000;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition-duration: 0.4s;
+  }
+  .opt_Category:hover{
+    box-shadow: 0 12px 16px 0 #9300008a, 0 17px 50px 0 #7901018a;
+    background-color: white;
+    color: #ff9800;
+    border-color: #ff9800;
+    border: 7px;
+  }
+
+
+
+  .btn_uMainPageL {
+    /* margin-left: 15%; */
+    width: 90%;
+    margin-top: 25px;
+    margin-left: 70px;
+    text-align: center;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ff0000;
+    border: 7px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+    transition-duration: 0.4s;
+  }
+  .btn_uMainPageL:hover {
+    box-shadow: 0 12px 16px 0 #7f00008a, 0 17px 50px 0 #9b00008a;
+    background-color: rgb(255, 0, 0); /* Green */
+    color: #ffffff;
+    border-color: #ff0000;
+    border: 0px;
+  }
+
+
+  .uabout{
+    /* background-color: #000000c9; */
+    width: 70%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    /* margin: 70px;
+    pa-top: 100px; */
+  }
+
+  .uaboutcontent {
+    background-color: #000000c9;
+    border-radius: 20px;
+    width: 60%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-left: 340px;
+    align-items: center;
+    padding:30px;
+  }
+
+  .uaboutcontent h2{
+    color: #D98014;
+    margin-bottom: 10px;
+  }
+
+  .uaboutcontent b{
+    color: #D98014;
+  }
+
+  .ContactInfo {
+    background-color: #000000;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .fPersonal {
+    border-radius: 10px;
+    border-color: #D98014;
+    width: 30%;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+
+  .fPersonal h3{
+    color: #D98014;
+    margin-bottom: 10px;
+  }
+  .fPersonal p{
+    color: #ffffff;
+  }
+  .fPersonal hr{
+    color: #D98014;
+  }
+  .Whatsapp{
+    display: flex;
+    flex-direction: row;
+  }
+  .Whatsapp p{
+    margin: 0px;
+    margin-left: 10px;
+    color: #D98014;
+  }
+  .Whatsapp b{
+    color: #ffffff;
+  }
+  .Whatsapp img{
+    height: 20px;
+    width: 20px;
+  }
+
+  .Email{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+  .Email p{
+    margin: 0px;
+    margin-left: 10px;
+    color: #D98014;
+  }
+  .Email b{
+    color: #ffffff;
+  }
+  .Email img{
+    height: 20px;
+    width: 20px;
+  }
+
+
+  .finfo {
+    border-radius: 10px;
+    border-color: #D98014;
+    width: 30%;
+    margin-top: 30px;
+    margin-left: 70px;
+    align-items: center;
+  }
+
+  .finfo h3{
+    color: #D98014;
+    margin-bottom: 10px;
+  }
+  .finfo ul{
+    color: #ffffff;
+  }
+
+
+  .fFounder {
+    border-radius: 10px;
+    border-color: #D98014;
+    width: 27%;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+
+  .fFounder h3{
+    color: #D98014;
+    margin-bottom: 10px;
+  }
+  .fFounder p{
+    color: #ffffff;
+  }
+ 
